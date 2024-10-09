@@ -1,5 +1,4 @@
 on:
-  push:
-    types: [created]
-    branches:
-      - 'develop'
+  create:
+    branches: 
+      - develop
